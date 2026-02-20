@@ -1,6 +1,7 @@
 # simone 1.0-5
 
 * Bumped version for CRAN resubmission.
+* Updated README: corrected GitHub install URL to `cambroise/simone`, removed defunct Travis CI and AppVeyor badges.
 * Updated CITATION file: replaced deprecated `citEntry()`/`personList()` with
   `bibentry()`/`c()`.
 * Fixed deprecated `class(x) == "..."` comparisons: replaced with `inherits()`.
