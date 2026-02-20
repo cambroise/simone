@@ -25,10 +25,7 @@ If you use simone in your research, please cite:
 > doi:[10.1093/bioinformatics/btn637](https://doi.org/10.1093/bioinformatics/btn637)
 
 Additional references:
-
-- Chiquet J., Grandvalet Y., Ambroise C. (2011). Inferring multiple graphical structures. *Statistics and Computing*, 21(4), 537–553. doi:[10.1007/s11222-010-9191-2](https://doi.org/10.1007/s11222-010-9191-2)
 - Ambroise C., Chiquet J., Matias C. (2009). Inferring sparse Gaussian graphical models with latent structure. *Electronic Journal of Statistics*, 3, 205–238. doi:[10.1214/08-EJS314](https://doi.org/10.1214/08-EJS314)
-- Charbonnier C., Chiquet J., Ambroise C. (2010). Weighted-Lasso for Structured Network Inference from Time Course Data. *Statistical Applications in Genetics and Molecular Biology*, 9(1). doi:[10.2202/1544-6115.1519](https://doi.org/10.2202/1544-6115.1519)
 
 ---
 
@@ -135,3 +132,7 @@ par(op)
 res <- simone(protein_data)
 plot(getNetwork(res))
 ```
+
+The best network inferred from the Sachs dataset (BIC-selected):
+
+![](man/figures/sachs-bestnet.png)

@@ -1,3 +1,9 @@
+# simone 1.0-6
+
+* Added introductory vignette with simulation and network inference examples.
+* Added Chiquet et al. (2008) Bioinformatics paper to CITATION.
+* Updated README with citation section and vignette output figures.
+
 # simone 1.0-5
 
 * Bumped version for CRAN resubmission.
