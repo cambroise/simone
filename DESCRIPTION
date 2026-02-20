@@ -20,5 +20,7 @@ Description: Implements the inference of
     experimental conditions and therefore not identically
     distributed. In this particular case, multiple but related
     networks are inferred on one simone run.
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
 License: GPL (>= 2)
 Encoding: UTF-8

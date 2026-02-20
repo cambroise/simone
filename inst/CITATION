@@ -1,4 +1,28 @@
-citHeader("To cite the R package 'simone' in publications use:")
+citHeader("To cite the R package 'simone' in publications use one or more of:")
+
+bibentry(
+  bibtype     = "Article",
+  title       = "SIMoNe: Statistical Inference for MOdular NEtworks",
+  author      = c(
+    person(given = "Julien",     family = "Chiquet"),
+    person(given = "Alexander",  family = "Smith"),
+    person(given = "Gilles",     family = "Grasseau"),
+    person(given = "Catherine",  family = "Matias"),
+    person(given = "Christophe", family = "Ambroise")),
+  journal     = "Bioinformatics",
+  volume      = "25",
+  number      = "3",
+  pages       = "417--418",
+  year        = "2008",
+  doi         = "10.1093/bioinformatics/btn637",
+  textVersion = paste(
+    "J. Chiquet, A. Smith, G. Grasseau, C. Matias, and C. Ambroise (2008).",
+    "SIMoNe: Statistical Inference for MOdular NEtworks.",
+    "Bioinformatics, 25(3), 417-418.",
+    "doi:10.1093/bioinformatics/btn637")
+)
+
+citHeader("To cite the R package 'simone' in publications use one or more of:")
 
 bibentry(
   bibtype     = "Article",
