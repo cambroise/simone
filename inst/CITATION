@@ -1,0 +1,59 @@
+citHeader("To cite the R package 'simone' in publications use:")
+
+bibentry(
+  bibtype     = "Article",
+  title       = "Inferring multiple graphical structures",
+  author      = c(
+    person(given = "Julien",     family = "Chiquet"),
+    person(given = "Yves",      family = "Grandvalet"),
+    person(given = "Christophe", family = "Ambroise")),
+  journal     = "Statistics and Computing",
+  year        = "2011",
+  volume      = "21",
+  number      = "4",
+  pages       = "537--553",
+  doi         = "10.1007/s11222-010-9191-2",
+  textVersion = paste(
+    "J. Chiquet, Y. Grandvalet, and C. Ambroise (2011).",
+    "Inferring multiple graphical structures.",
+    "Statistics and Computing, 21(4), 537-553.",
+    "doi:10.1007/s11222-010-9191-2")
+)
+
+bibentry(
+  bibtype     = "Article",
+  title       = "Weighted-Lasso for Structured Network Inference from Time Course Data",
+  author      = c(
+    person(given = "Camille",    family = "Charbonnier"),
+    person(given = "Julien",     family = "Chiquet"),
+    person(given = "Christophe", family = "Ambroise")),
+  journal     = "Statistical Applications in Genetics and Molecular Biology",
+  volume      = "9",
+  number      = "1",
+  year        = "2010",
+  doi         = "10.2202/1544-6115.1519",
+  textVersion = paste(
+    "C. Charbonnier, J. Chiquet, and C. Ambroise (2010).",
+    "Weighted-Lasso for Structured Network Inference from Time Course Data.",
+    "Statistical Applications in Genetics and Molecular Biology, 9(1), article 15.",
+    "doi:10.2202/1544-6115.1519")
+)
+
+bibentry(
+  bibtype     = "Article",
+  title       = "Inferring sparse Gaussian graphical models with latent structure",
+  author      = c(
+    person(given = "Christophe", family = "Ambroise"),
+    person(given = "Julien",     family = "Chiquet"),
+    person(given = "Catherine",  family = "Matias")),
+  journal     = "Electronic Journal of Statistics",
+  volume      = "3",
+  pages       = "205--238",
+  year        = "2009",
+  doi         = "10.1214/08-EJS314",
+  textVersion = paste(
+    "C. Ambroise, J. Chiquet, and C. Matias (2009).",
+    "Inferring sparse Gaussian graphical models with latent structure.",
+    "Electronic Journal of Statistics, 3, 205-238.",
+    "doi:10.1214/08-EJS314")
+)

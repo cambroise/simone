@@ -1,0 +1,15 @@
+# R package build artifacts
+*.Rcheck/
+*.tar.gz
+*.so
+*.dll
+*.o
+
+# R session
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# macOS
+.DS_Store

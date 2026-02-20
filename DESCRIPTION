@@ -1,0 +1,24 @@
+Package: simone
+Version: 1.0-5
+Date: 2026-02-20
+Title: Statistical Inference for MOdular NEtworks (SIMoNe)
+Authors@R: c(
+  person("Julien", "Chiquet", role = "aut", email = "julien.chiquet@inrae.fr",
+      comment = c(ORCID = "0000-0002-3629-3429")),
+  person("Gilles", "Grasseau", role = "aut", email = "grasseau@llr.in2p3.fr"),
+  person("Christophe", "Ambroise", role = c("aut", "cre"), email = "christophe.ambroise@univ-evry.fr"),
+  person("Camille", "Charbonnier", role = "ctb", email = "miyu.cc@gmail.com"),
+  person("Alexander", "Smith", role = "ctb", email = "aatsmith@orange.fr"),
+  person("Catherine", "Matias", role = "ctb", email = "Catherine.Matias@math.cnrs.fr")
+  )
+Depends: R (>= 3.5.0), blockmodels
+Description: Implements the inference of
+    co-expression networks based on partial correlation
+    coefficients from either steady-state or time-course
+    transcriptomic data. Note that with both type of data this
+    package can deal with samples collected in different
+    experimental conditions and therefore not identically
+    distributed. In this particular case, multiple but related
+    networks are inferred on one simone run.
+License: GPL (>= 2)
+Encoding: UTF-8
